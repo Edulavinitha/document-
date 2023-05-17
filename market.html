@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="market.css">
+    <title>marketplace</title>
+</head>
+<body>
+    <nav class="navbar">
+<div class="logo"><h1>marketplace</h1></div>
+<ul class="menu">
+    <li><a href=""class="active">Home</a></li>
+    <li><a href="">Browse all</a></li>
+    <li><a href="">Notification</a></li>
+    <li><a href="">inbox</a></li>
+    <li><a href="">Buying</a></li>
+    <li><a href="">selling</a></li>
+    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+</ul>
+<!--for responsive button-->
+<div class="menu-btn">
+    <i class="fa fa-bars"></i>
+</div>
+    </nav>
+    <section class="content">
+        <h1>New Arrivals for men & Women</h1>
+        <p>The Best Women Fashion Arrivals</p>
+        <button>Shop Now</button>
+    </section>
+    <h1 class="pheading">Our Latest Products</h1> 
+    <section class="sec">
+        <div class="products">
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="pic1.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Lady sandal</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic2.jpeg" alt=""></div>
+                <div class="desc">men</div>
+                <div class="title">nike shoe</div>
+                <div class="box">
+                    <div class="price">$80</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic3.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Lady hand bag</div>
+                <div class="box">
+                    <div class="price">$100</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic4.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Lady sandal</div>
+                <div class="box">
+                    <div class="price">$90</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic5.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Lady flats</div>
+                <div class="box">
+                    <div class="price">$60</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic6.jpeg" alt=""></div>
+                <div class="desc">women</div>
+                <div class="title">faststrack watch</div>
+                <div class="box">
+                    <div class="price">$400</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic7.jpeg" alt=""></div>
+                <div class="desc">men</div>
+                <div class="title">sonata</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+             <!--card start-->
+             <div class="card">
+                <div class="img"><img src="pic8.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">lady shoes</div>
+                <div class="box">
+                    <div class="price">$120</div>
+                <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <!--card end-->
+        </div>
+    </section>
+    <footer>
+        <p>copyrights at <a href="">marketplace</a></p>
+    </footer>
+    <!--jquery-->
+    <script>
+        $("menu-btn").click(function(){
+            $(".navbar .menu").toggleclass("active");
+            $(".menu-btn i").toggleclass("active");
+        });
+    </script>
+</body>
+</html>
